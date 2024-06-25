@@ -1,0 +1,12 @@
+.App {
+    width: 80%;
+    margin: 10px auto;
+    background: rgb(37, 37, 37);
+    padding: 20px 0;
+    border-radius: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

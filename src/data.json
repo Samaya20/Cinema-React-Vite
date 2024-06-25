@@ -1,0 +1,204 @@
+{
+    "cinemas": [
+        {
+            "id": 1,
+            "name": "Dreamland Cinema",
+            "address": "1234 Elm Street, Springfield",
+            "rating": 4.5,
+            "feedback": [
+                {
+                    "id": 1,
+                    "writer": "Jane Doe",
+                    "description": "Great atmosphere and comfortable seats!"
+                },
+                {
+                    "id": 2,
+                    "writer": "John Smith",
+                    "description": "Friendly staff and clean facilities."
+                }
+            ],
+            "movies": [
+                {
+                    "id": 1,
+                    "name": "Inception",
+                    "genre": "Science Fiction",
+                    "director": "Christopher Nolan",
+                    "imdb": 8.8,
+                    "price": 12.99,
+                    "description": "A thief who steals corporate secrets through the use of dream-sharing technology.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/inception.mpw.123395_9e0000d1-bc7f-400a-b488-15fa9e60a10c_480x.progressive.jpg?v=1708527589"
+                },
+                {
+                    "id": 2,
+                    "name": "The Godfather",
+                    "genre": "Crime",
+                    "director": "Francis Ford Coppola",
+                    "imdb": 9.2,
+                    "price": 10.99,
+                    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+                    "image": "https://www.movieposters.com/cdn/shop/products/godfather.132843.mp_480x.progressive.jpg?v=1654286052"
+                },
+                {
+                    "id": 3,
+                    "name": "Titanic",
+                    "genre": "Drama",
+                    "director": "James Cameron",
+                    "imdb": 7.8,
+                    "price": 14.99,
+                    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/titanic.styleb.123706_480x.progressive.jpg?v=1709331733"
+                },
+                {
+                    "id": 4,
+                    "name": "The Shawshank Redemption",
+                    "genre": "Drama",
+                    "director": "Frank Darabont",
+                    "imdb": 9.3,
+                    "price": 9.99,
+                    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/shawshank_eb84716b-efa9-44dc-a19d-c17924a3f7df_480x.progressive.jpg?v=1709821984"
+                },
+                {
+                    "id": 5,
+                    "name": "Pulp Fiction",
+                    "genre": "Crime",
+                    "director": "Quentin Tarantino",
+                    "imdb": 8.9,
+                    "price": 11.99,
+                    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+                    "image": "https://www.movieposters.com/cdn/shop/products/ab401c136cca10812cda5ac64c3f7c2e_bb5e62f7-b34f-4547-b5c7-495cc2dd1bd9_480x.progressive.jpg?v=1573591339"
+                },
+                {
+                    "id": 6,
+                    "name": "The Dark Knight",
+                    "genre": "Action",
+                    "director": "Christopher Nolan",
+                    "imdb": 9.0,
+                    "price": 13.99,
+                    "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/darkknight.building.24x36_20e90057-f673-4cc3-9ce7-7b0d3eeb7d83_480x.progressive.jpg?v=1707491191"
+                },
+                {
+                    "id": 7,
+                    "name": "Fight Club",
+                    "genre": "Drama",
+                    "director": "David Fincher",
+                    "imdb": 8.8,
+                    "price": 12.49,
+                    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much, much more.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/FightClub_480x.progressive.jpg?v=1682450032"
+                },
+                {
+                    "id": 8,
+                    "name": "Forrest Gump",
+                    "genre": "Drama",
+                    "director": "Robert Zemeckis",
+                    "imdb": 8.8,
+                    "price": 10.99,
+                    "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+                    "image": "https://www.movieposters.com/cdn/shop/products/forrest-gump---24x36_480x.progressive.jpg?v=1645558337"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Galaxy Theaters",
+            "address": "5678 Oak Avenue, Metropolis",
+            "rating": 4.7,
+            "feedback": [
+                {
+                    "id": 1,
+                    "writer": "Alice Johnson",
+                    "description": "Fantastic sound system and screen quality!"
+                },
+                {
+                    "id": 2,
+                    "writer": "Bob Brown",
+                    "description": "Best popcorn in town!"
+                }
+            ],
+            "movies": [
+                {
+                    "id": 1,
+                    "name": "The Matrix",
+                    "genre": "Action",
+                    "director": "Lana Wachowski, Lilly Wachowski",
+                    "imdb": 8.7,
+                    "price": 11.99,
+                    "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/Matrix.mpw.102176_bb2f6cc5-4a16-4512-881b-f855ead3c8ec_480x.progressive.jpg?v=1708703624"
+                },
+                {
+                    "id": 2,
+                    "name": "The Lord of the Rings: The Fellowship of the Ring",
+                    "genre": "Fantasy",
+                    "director": "Peter Jackson",
+                    "imdb": 8.8,
+                    "price": 12.99,
+                    "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/LordoftheRings_480x.progressive.jpg?v=1645558337"
+                },
+                {
+                    "id": 3,
+                    "name": "Gladiator",
+                    "genre": "Action",
+                    "director": "Ridley Scott",
+                    "imdb": 8.5,
+                    "price": 10.99,
+                    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/Gladiator_480x.progressive.jpg?v=1645558337"
+                },
+                {
+                    "id": 4,
+                    "name": "The Avengers",
+                    "genre": "Action",
+                    "director": "Joss Whedon",
+                    "imdb": 8.0,
+                    "price": 14.99,
+                    "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/Avengers_480x.progressive.jpg?v=1645558337"
+                },
+                {
+                    "id": 5,
+                    "name": "Jurassic Park",
+                    "genre": "Adventure",
+                    "director": "Steven Spielberg",
+                    "imdb": 8.1,
+                    "price": 9.99,
+                    "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/JurassicPark_480x.progressive.jpg?v=1645558337"
+                },
+                {
+                    "id": 6,
+                    "name": "Braveheart",
+                    "genre": "Biography",
+                    "director": "Mel Gibson",
+                    "imdb": 8.3,
+                    "price": 11.99,
+                    "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/Braveheart_480x.progressive.jpg?v=1645558337"
+                },
+                {
+                    "id": 7,
+                    "name": "Saving Private Ryan",
+                    "genre": "Drama",
+                    "director": "Steven Spielberg",
+                    "imdb": 8.6,
+                    "price": 13.99,
+                    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/SavingPrivateRyan_480x.progressive.jpg?v=1645558337"
+                },
+                {
+                    "id": 8,
+                    "name": "Interstellar",
+                    "genre": "Science Fiction",
+                    "director": "Christopher Nolan",
+                    "imdb": 8.6,
+                    "price": 10.49,
+                    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+                    "image": "https://www.movieposters.com/cdn/shop/files/Interstellar_480x.progressive.jpg?v=1645558337"
+                }
+            ]
+        }
+    ]
+}
