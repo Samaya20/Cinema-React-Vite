@@ -8,7 +8,7 @@ export default function FilmList(props) {
   return (
     <div className="films-list">
       {props.selectedCinema.movies.map((movie) => (
-        <FilmCard key={movie.id} image={movie.image} />
+        <FilmCard key={movie.id} movie={movie}/>
       ))}
     </div>
   );

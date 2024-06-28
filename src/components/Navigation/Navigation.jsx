@@ -13,8 +13,8 @@ export default function Navigation(props) {
       </select>
       {props.selectedCinema && (
         <>
-          <p className="nav-data-item">Address: {props.selectedCinema.address}</p>
-          <p className="nav-data-item">Rating: {props.selectedCinema.rating}</p>
+          <p className="nav-data-item">Address : {props.selectedCinema.address}</p>
+          <p className="nav-data-item">Rating : {props.selectedCinema.rating}</p>
         </>
       )}
     </section>

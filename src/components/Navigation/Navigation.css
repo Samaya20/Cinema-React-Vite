@@ -1,10 +1,10 @@
-.navbar{
-    display: flex;  
+.navbar {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.navbar select{
+.navbar select {
     background: #6FC276;
     color: white;
     border: none;
@@ -14,14 +14,14 @@
     font-size: 15px;
 }
 
-.navbar select option{
+.navbar select option {
     font-size: 15px;
     background: rgb(49, 49, 49);
     border: none;
     outline: none;
 }
 
-.nav-data-item{
+.nav-data-item {
     background: #6FC276;
     padding: 10px 20px;
     border-radius: 10px 10px 0 0px;

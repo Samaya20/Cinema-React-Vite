@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation/Navigation";
 import { fetchCinemas } from "./utils/fetch";
 import FilmList from "./components/Films/FilmList";
 import "./App.css";
+import Feedback from "./components/Feedbacks/Feedback";
 
 function App() {
   const [cinemas, setCinemas] = useState([]);
@@ -29,12 +30,19 @@ function App() {
 
   return (
     <div className="App">
-      <Navigation
-        cinemasData={cinemas}
-        handleCinemaChange={handleCinemaChange}
-        selectedCinema={selectedCinema}
-      />
-      <FilmList selectedCinema={selectedCinema} />
+      <div className="site-wrapper">
+        <div className="left-side">
+          <Navigation
+            cinemasData={cinemas}
+            handleCinemaChange={handleCinemaChange}
+            selectedCinema={selectedCinema}
+          />
+          <FilmList selectedCinema={selectedCinema} />
+        </div>
+        <div className="right-side">
+          <Feedback selectedCinema={selectedCinema}/>
+        </div>
+      </div>
     </div>
   );
 }
