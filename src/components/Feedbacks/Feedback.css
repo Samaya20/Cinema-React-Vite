@@ -1,7 +1,22 @@
 .feedbacks h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .feedbacks h3 {
-    font-size: 18px;
+  font-size: 18px;
+}
+
+.feed-card {
+  padding: 30px 20px;
+  background: rgb(93, 93, 93);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.feed-card h3 {
+  color: #cafdcd;
+}
+
+.feed-card p {
+  margin: 10px 0;
 }

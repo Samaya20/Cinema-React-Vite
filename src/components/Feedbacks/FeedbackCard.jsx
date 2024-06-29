@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
-export default function FeedbackCard({feedback}) {
+export default function FeedbackCard({ feedback }) {
   return (
     <div className="feed-card">
-        <h3>{feedback.writer}</h3>
+      <h3>{feedback.writer}</h3>
+      <p>{feedback.description}</p>
     </div>
-  )
+  );
 }
